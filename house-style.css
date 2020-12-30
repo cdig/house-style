@@ -239,3 +239,33 @@ input[type="number"]::-webkit-outer-spin-button {
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
+
+iframe,
+object,
+embed,
+canvas,
+progress {
+  width: 100%; /* Make responsive (cd-reset) */
+  vertical-align: middle; /* Remove the "baseline" space weirdness (cd-reset) */
+}
+
+video,
+img {
+  max-width: 100%; /* Make somewhat responsive (cd-reset) */
+  vertical-align: middle; /* Remove the "baseline" space weirdness (cd-reset) */
+}
+
+/* Embedded contexts should be big and beefy! (cd-reset) */
+iframe,
+object,
+embed,
+canvas,
+progress,
+video {
+  display: block;
+}
+
+/* Remove the 2px border around iframes (cd-reset) */
+iframe {
+  border: 0;
+}
