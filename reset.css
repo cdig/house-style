@@ -139,7 +139,6 @@ progress {
 
 video,
 img {
-  max-width: 100%; /* Make somewhat responsive (cd-reset) */
   vertical-align: middle; /* Remove the "baseline" space weirdness (cd-reset) */
 }
 
