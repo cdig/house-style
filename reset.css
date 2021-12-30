@@ -9,11 +9,6 @@ html {
   /* TODO: This belongs in the framework, not the reset. */
   /* Highlight taps */
   -webkit-tap-highlight-color: rgba(white, .3);
-
-  /* TODO: This belongs in the framework, not the reset. */
-  /* Scale fonts more accurately, rather than rounding to the nearest integer size. */
-  /* Note that this might change or disable kerning, ligatures, and other features. */
-  text-rendering: geometricPrecision;
 }
 
 /* Remove the UA default margin that all browsers add (Normalize) */
