@@ -3,19 +3,19 @@
   src: url("https://s3.lunchboxsessions.com/fonts/lato/lato-regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
-  font-display: fallback;
+  font-display: block;
 }
 @font-face {
   font-family: "LBSLato";
   src: url("https://s3.lunchboxsessions.com/fonts/lato/lato-bold.woff2") format("woff2");
   font-weight: bold;
   font-style: normal;
-  font-display: fallback;
+  font-display: block;
 }
 @font-face {
   font-family: "LBSLato";
   src: url("https://s3.lunchboxsessions.com/fonts/lato/lato-black.woff2") format("woff2");
   font-weight: 900;
   font-style: normal;
-  font-display: fallback;
+  font-display: block;
 }
